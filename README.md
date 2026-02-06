@@ -25,18 +25,8 @@ Get API key: https://makersuite.google.com/app/apikey
 # With movie name for better context
 ./target/release/translate_srt input.srt output.srt 20 "Movie Name"
 ```
-
-Parameters: `<input.srt> [output.srt] [chunk_size] [movie_name]`
-
-### Remove Citations
-
-```bash
-./target/release/clean_srt input.srt output.srt
-```
-
-Removes `[cite_start]` and `[cite: N]` tags.
-
 ## Examples
+
 
 ```bash
 # Translate with context
