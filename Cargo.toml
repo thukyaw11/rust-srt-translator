@@ -1,0 +1,14 @@
+[package]
+name = "srt_tools"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "clean_srt"
+path = "clean_srt.rs"
+
+[[bin]]
+name = "translate_srt"
+path = "translate_srt.rs"
+
+[dependencies]
